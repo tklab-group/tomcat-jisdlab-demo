@@ -7,6 +7,8 @@ JISDLabの評価に使用したTomcat環境(Windows10)
 1. `gradle war`コマンドを実行する
 1. apache-tomcat-9.0.41/webappsにTomcatDemo-0.0.1.warが作成されていれば成功
 
+※ TomcatDemo-0.0.1.warが作成できない場合は研究室の共有スペース(/peperoncino/share/sugiyama)を参照してください
+
 ## 実験手順
 1. JISDLab環境を構築する
 1. JISDLabディレクトリで`jupyter lab`を実行する
