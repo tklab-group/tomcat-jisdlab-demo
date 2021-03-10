@@ -4,3 +4,5 @@
 # These are explicitly windows files and should use crlf
 *.bat           text eol=crlf
 
+# 主要言語からHTMLを除外
+*.html linguist-vendored
