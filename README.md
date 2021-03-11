@@ -10,7 +10,7 @@
 ※ TomcatDemo-0.0.1.warが作成できない場合は研究室の共有スペース(/peperoncino/share/sugiyama)を参照してください
 
 ## 実験手順
-1. https://github.com/tklab-group/JISDLab の`Manual Installation`を参照してJISDLab環境を構築する
+1. https://github.com/tklab-group/JISDLab のeasy-setup.mdにある「Dockerを使わない場合」を参照してWindows用にJISDLab環境を構築する
 1. JISDLabディレクトリで`jupyter lab`を実行する
 1. PowerShell上で以下を実行する
    - Case1(JPDAによるデバッグ)
