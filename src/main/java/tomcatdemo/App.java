@@ -7,9 +7,11 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import static tomcatdemo.Utility.sleep;
+
 @WebServlet("/home")
 public class App extends HttpServlet {
-  static int noOfViews = 0;
+  static int noOfViews = 1;
 
   @Override
   protected void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
@@ -19,7 +21,7 @@ public class App extends HttpServlet {
     /* section 2 */
     sleep(0.1);
     /* section 3 */
-    sleep(5.0);
+    sleep(0.3, 5.0, 10);
     /* section 4 */
     sleep(0.2);
     /* end */
@@ -30,14 +32,6 @@ public class App extends HttpServlet {
       out.println(message + "<br>");
       out.println("views: " + noOfViews++);
       out.println("</body></html>");
-    }
-  }
-
-  void sleep(double seconds) {
-    try {
-      Thread.sleep((int) (seconds * 1000));
-    } catch (InterruptedException e) {
-      e.printStackTrace();
     }
   }
 }
