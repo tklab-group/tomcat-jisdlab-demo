@@ -5,9 +5,9 @@
 1. apache-tomcat-9.0.41の絶対パスを環境変数`CATALINA_HOME`に設定する
 1. `gradlew.bat`を起動する
 1. `gradle war`コマンドを実行する
-1. apache-tomcat-9.0.41/webappsにTomcatDemo-0.0.1.warが作成されていれば成功
+1. apache-tomcat-9.0.41/webappsにTomcatDemo-0.0.2.warが作成されていれば成功
 
-※ TomcatDemo-0.0.1.warが作成できない場合は研究室の共有スペース(/peperoncino/share/sugiyama)を参照してください
+※ warが作成できない場合は研究室の共有スペース(/peperoncino/share/sugiyama)を参照してください
 
 ## 実験手順
 1. https://github.com/tklab-group/JISDLab のeasy-setup.mdにある「Dockerを使わない場合」を参照してWindows用にJISDLab環境を構築する
