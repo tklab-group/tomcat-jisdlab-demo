@@ -21,7 +21,7 @@ public class App extends HttpServlet {
     /* section 2 */
     sleep(0.1);
     /* section 3 */
-    sleep(0.3, 5.0, 10);
+    sleep(0.3, 2.0, 10);
     /* section 4 */
     sleep(0.2);
     /* end */
